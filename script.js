@@ -30,7 +30,7 @@ form.addEventListener('submit',(e) => {
     let rate = exchangeRates[baseCurrency.value][targetCurrency.value];
     
     let result = (amount.value) * rate;
-    console.log(result)
+    console.log(result);
 });
 
 
